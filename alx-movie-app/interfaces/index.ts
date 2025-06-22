@@ -1,4 +1,3 @@
-
 import { ReactNode } from "react";
 
 export interface ComponentProps {
@@ -34,7 +33,4 @@ export interface MoviesProps {
   primaryImage: PrimaryImage
   titleText: TitleText
   releaseYear: ReleaseYear
-}
-export interface MProps {
-  movies: MoviesProps[]
 }
