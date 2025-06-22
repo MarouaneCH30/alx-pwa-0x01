@@ -9,22 +9,15 @@ export interface ButtonProps {
   action?: () => void;
 }
 
-export interface MovieProps {
-  id?: string;
-  posterImage: string;
-  releaseYear: string;
-  title: string;
-}
-
-interface PrimaryImage {
+export interface PrimaryImage {
   url: string;
 }
 
-interface TitleText {
+export interface TitleText {
   text: string;
 }
 
-interface ReleaseYear {
+export interface ReleaseYear {
   year: string;
 }
 
